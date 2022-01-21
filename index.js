@@ -49,7 +49,7 @@ function FindTheNonRepeated(array) {
 }
 
 var list1 = [1, 1, 2, 2, 4, 4, 3, 5, 5, 6, 6];
-console.log(CountOccurences(list1));
+console.log(list1);
 var non_repeated_element = FindTheNonRepeated(list1);
 console.log("The non-repeated element of list1 is: " + non_repeated_element);
 
@@ -62,6 +62,6 @@ function FindSecondMax(array) {
   return array[array.length - 2];
 }
 var list2 = [8, 2, 7, 9, 55, 87, 66, 12, 34];
+console.log(list2);
 second_max = FindSecondMax(list2);
-
 console.log("The second max in list2 is: " + second_max);
